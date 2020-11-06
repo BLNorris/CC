@@ -102,6 +102,7 @@ while endX >x do
     if bb==false
     then 
         PlaceDirt()
+        MoveForward()
     else
         if blockBelow.name == "minecraft:water"
         then DropSand()
