@@ -1,3 +1,7 @@
 shell.run("rm filler")
 shell.run("wget https://raw.githubusercontent.com/BLNorris/CC/master/Filler.lua filler")
 shell.run("filler")
+
+
+
+wget https://raw.githubusercontent.com/BLNorris/CC/master/Exploder.lua explode

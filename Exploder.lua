@@ -1,9 +1,9 @@
 --Z going positive is south
 --X going positive is east
-local startX = -916
-local startZ = -896
-local endX = -885
-local endZ = -939
+local startX = -998
+local startZ = -804
+local endX = -979
+local endZ = -824
 local refuelSlot = 16
 local witherSlot = 15
 
