@@ -24,6 +24,9 @@ function Explode()
         sleep(0.2)
         counter = counter + 1
     end
+    
+    turtle.down()
+    MoveForward()
 
 end
 
