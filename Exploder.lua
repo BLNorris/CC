@@ -32,7 +32,7 @@ function Refuel()
     turtle.refuel(1)
 end
 function MoveForward()
-    turtle.select(up)
+    turtle.select(1)
     while turtle.inspect()
     do 
         turtle.dig()
