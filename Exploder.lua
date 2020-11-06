@@ -64,6 +64,9 @@ while endX >x do
 
     if startZ < z
     then
+        print("TOO FAR SOUTH?")
+        print(startZ)
+        print(z)
         turtle.turnLeft()
         MoveForward()
         MoveForward()
