@@ -5,7 +5,7 @@ local startZ = -804
 local endX = -979
 local endZ = -824
 local refuelSlot = 16
-local witherSlot = 15
+local witherSlot = 1
 
 local x, y, z = gps.locate(5)
 
@@ -21,10 +21,10 @@ function Explode()
     local counter = 0
     while counter < 100 do
         redstone.setOutput("front", not redstone.getOutput("front"))
-        sleep(0.2)
+        sleep(0.3)
         counter = counter + 1
     end
-    
+
     turtle.down()
     MoveForward()
 
