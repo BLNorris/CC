@@ -27,8 +27,8 @@ function PlaceDirt()
     if turtle.getItemCount() == 0
     then RefillDirt()
     end
-    turtle.select(sandSlot)
     turtle.placeDown()
+    turtle.select(sandSlot)
 end
 function RefillDirt()
     turtle.select(dirtContainerSlot)
