@@ -74,7 +74,7 @@ while endX >x do
         MoveForward()
     end
 
-
+    Explode()
     MoveForward()
     MoveForward()
 
