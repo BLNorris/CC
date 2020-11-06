@@ -5,3 +5,6 @@ shell.run("filler")
 
 
 wget https://raw.githubusercontent.com/BLNorris/CC/master/Exploder.lua explode
+
+
+wget https://raw.githubusercontent.com/BLNorris/CC/master/quarry.lua quarry
