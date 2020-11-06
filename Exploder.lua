@@ -13,19 +13,22 @@ local x, y, z = gps.locate(5)
 
 function Explode()
     turtle.select(witherSlot)
+    sleep(0.1)
     turtle.placeUp()
-
+    sleep(0.1)
     turtle.back()
+    sleep(0.1)
     turtle.up()
 
     local counter = 0
-    while counter < 100 do
+    while counter < 10 do
         redstone.setOutput("front", not redstone.getOutput("front"))
         sleep(0.3)
         counter = counter + 1
     end
 
     turtle.down()
+    sleep(0.1)
     MoveForward()
 
 end
@@ -39,8 +42,10 @@ function MoveForward()
     while turtle.inspect()
     do 
         turtle.dig()
+        sleep(0.1)
     end
     turtle.digUp()
+    sleep(0.1)
     turtle.forward()
 end
 function GetPosition()
